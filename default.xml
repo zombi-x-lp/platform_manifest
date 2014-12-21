@@ -15,14 +15,53 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-5.0.2_r1"
+  <remote  name="DC"
+           fetch="git://github.com/DonkeyCoyote"
+           review="" />
+
+  <remote  name="zombi-lp"
+           fetch="git://github.com/zombi-x-lp" />
+
+
+  <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="omnirom" revision="android-5.0" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="zombi-lp" revision="lp5.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+   <!-- zombi-lp Roms repos -->
+  
+  <project path="vendor/zombi" name="android_vendor_zombi" remote="zombi-lp" revision="lp5.0" />
+  <project path="platform_manifest" name="platform_manifest" remote="zombi-lp" revision="lp5.0" />
+
+  <!-- End zombi-lp Roms repos -->
+
+  <!-- zombi-lp Roms Device Repos -->
+
+  <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi-lp" revision="lp5.0" />
+  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="zombi-lp" revision="lp5.0" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="zombi-lp" revision="lp5.0" />
+
+  <!-- End zombi-lp Roms Device Repos -->
+
+
+<!-- Begin Proprietary Vendor Repos -->
+
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="DC" revision="android-5.0" />
+
+  <!-- End Vendor Repos -->
+
+<!-- Begin Kernel Repos -->
+ 
+  <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/grimlock/asus/tegra3/unified" remote="zombi-lp" revision="lp5.0" />
+  <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi-lp" revision="lp5.0" />
+
+  <!-- End Kernel Repos -->
+
+<!--Begin outside projects -->
 
   <project path="android" name="android" remote="omnirom" revision="android-5.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
