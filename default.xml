@@ -22,7 +22,6 @@
   <remote  name="zombi-lp"
            fetch="git://github.com/zombi-x-lp" />
 
-
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-c="true"
@@ -36,9 +35,10 @@
   
   <project path="vendor/zombi" name="android_vendor_zombi" remote="zombi-lp" revision="lp5.0" />
   <project path="platform_manifest" name="platform_manifest" remote="zombi-lp" revision="lp5.0" />
-
+  <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="zombi-lp" revision="lp5.0" />
+  
   <!-- End zombi-lp Roms repos -->
-
+  
   <!-- zombi-lp Roms Device Repos -->
 
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi-lp" revision="lp5.0" />
@@ -47,14 +47,13 @@
 
   <!-- End zombi-lp Roms Device Repos -->
 
-
-<!-- Begin Proprietary Vendor Repos -->
+  <!-- Begin Proprietary Vendor Repos -->
 
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="DC" revision="android-5.0" />
 
   <!-- End Vendor Repos -->
 
-<!-- Begin Kernel Repos -->
+  <!-- Begin Kernel Repos -->
  
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/grimlock/asus/tegra3/unified" remote="zombi-lp" revision="lp5.0" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi-lp" revision="lp5.0" />
