@@ -36,7 +36,8 @@
   <project path="vendor/zombi" name="android_vendor_zombi" remote="zombi-lp" revision="lp5.0" />
   <project path="platform_manifest" name="platform_manifest" remote="zombi-lp" revision="lp5.0" />
   <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="zombi-lp" revision="lp5.0" />
-  
+  <project path="frameworks/native" name="android_frameworks_native" remote="zombi-lp" revision="lp5.0" groups="pdk" />
+
   <!-- End zombi-lp Roms repos -->
   
   <!-- zombi-lp Roms Device Repos -->
@@ -328,7 +329,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -349,7 +349,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.0" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
