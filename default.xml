@@ -37,6 +37,7 @@
   <project path="platform_manifest" name="platform_manifest" remote="zombi-lp" revision="lp5.0" />
   <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="zombi-lp" revision="lp5.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="zombi-lp" revision="lp5.0" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="zombi-lp" revision="lp5.0" groups="pdk" />
 
   <!-- End zombi-lp Roms repos -->
   
@@ -528,7 +529,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.0" />
