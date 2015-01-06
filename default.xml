@@ -60,10 +60,11 @@
  
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/grimlock/asus/tegra3/unified" remote="zombi-lp" revision="lp5.0" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi-lp" revision="lp5.0" />
-
+  <project name="that1_kernel_asus_tf700t" path="kernel/asus/that1/tf700t" remote="zombi-lp" revision="lp5.0" />
+  
   <!-- End Kernel Repos -->
-
-<!--Begin outside projects -->
+  
+  <!--Begin outside projects -->
 
   <project path="android" name="android" remote="omnirom" revision="android-5.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
