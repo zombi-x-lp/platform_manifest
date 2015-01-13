@@ -41,7 +41,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="zombi-lp" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="zombi-lp" revision="lp5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zombi-lp" revision="lp5.0" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="lp5.0" revision="zombi-lp" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="zombi-lp" revision="lp5.0" groups="pdk" />
   
   <!-- End zombi-lp Roms repos -->
   
