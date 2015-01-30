@@ -42,7 +42,8 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="zombi-lp" revision="lp5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zombi-lp" revision="lp5.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="zombi-lp" revision="lp5.0" groups="pdk" />
-  
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="zombi-lp" revision="lp5.0" />
+
   <!-- End zombi-lp Roms repos -->
   
   <!-- zombi-lp Roms Device Repos -->
@@ -434,7 +435,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-5.0" />
