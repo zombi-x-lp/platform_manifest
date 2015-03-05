@@ -73,7 +73,7 @@
  
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi-lp" revision="lp5.0" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi-lp" revision="lp5.0" />
-  <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi-lp" revision="lp5.0" />
+  <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi-lp" revision="twrp" />
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi-lp" revision="lp5.0" />
   <project name="lj50036/omni_kernel_asus_tf300t" path="kernel/asus/tegra3/omni" remote="github" revision="testing" />
   <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi-lp" revision="lp5.0" />
