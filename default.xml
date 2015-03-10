@@ -59,6 +59,8 @@
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="zombi-lp" revision="lp5.0" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="zombi-lp" revision="lp5.0" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="zombi-lp" revision="lp5.0" />
+  <project path="device/acer/a510" name="android_device_acer_a510" remote="zombi-lp" revision="lp5.0" />
+  <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi-lp" revision="lp5.0" />
   
   <!-- End zombi-lp Roms Device Repos -->
 
@@ -66,6 +68,7 @@
 
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="DC" revision="android-5.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="DC" revision="android-4.4" />
+  <project path="vendor/acer" name="proprietary_vendor_acer" remote="DC" revision="android-4.4" />
   
   <!-- End Vendor Repos -->
 
@@ -77,6 +80,7 @@
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi-lp" revision="lp5.0" />
   <project name="lj50036/omni_kernel_asus_tf300t" path="kernel/asus/tegra3/omni" remote="github" revision="testing" />
   <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi-lp" revision="lp5.0" />
+  <project name="android_kernel_acer_t30" path="kernel/htc/t30" remote="zombi-lp" revision="lp5.0" />
 
   <!-- End Kernel Repos -->
   
