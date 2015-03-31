@@ -54,6 +54,7 @@
   <project path="device/asus/tf201t" name="android_device_asus_tf201t" remote="zombi-lp" revision="lp5.1" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi-lp" revision="lp5.1" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="zombi-lp" revision="lp5.1" />
+  <project path="device/asus/transformer-common" name="android_device_asus_transformer-common" remote="zombi-lp" revision="lp5.1" />
   <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="zombi-lp" revision="twrp" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="zombi-lp" revision="lp5.1" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="zombi-lp" revision="lp5.1" />
