@@ -51,36 +51,13 @@
   
   <!-- zombi Roms Device Repos -->
   
-  <project path="device/asus/tf201t" name="android_device_asus_tf201t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/transformer-common" name="android_device_asus_transformer-common" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="zombi" revision="twrp" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="zombi" revision="lp5.1" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="zombi" revision="lp5.1" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="zombi" revision="lp5.1" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="zombi" revision="lp5.1" />
-  <project path="device/acer/a510" name="android_device_acer_a510" remote="zombi" revision="lp5.1" />
-  <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi" revision="lp5.1" />
-  
   <!-- End zombi Roms Device Repos -->
 
   <!-- Begin Proprietary Vendor Repos -->
-
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="DC" revision="android-5.1" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="DC" revision="android-4.4" />
-  <project path="vendor/acer" name="Hardslog/proprietary_vendor_acer" remote="github" revision="lp5.1" />
   
   <!-- End Vendor Repos -->
 
   <!-- Begin Kernel Repos -->
- 
-  <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="twrp" />
-  <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
 
   <!-- End Kernel Repos -->
   
