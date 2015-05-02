@@ -53,6 +53,9 @@
   
   <project path="device/oppo/find7op" name="android_device_oppo_find7op" remote="zombi" revision="lp5.1" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="omnirom" revision="android-5.1" />
+  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="zombi" revision="lp5.1" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="zombi" revision="lp5.1" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="zombi" revision="lp5.1" />
   <project path="hardware/qcom/display-caf-bfam" name="android_hardware_qcom_display-caf-bfam" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/media-caf-bfam" name="android_hardware_qcom_media-caf-bfam" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/audio-caf-bfam" name="android_hardware_qcom_audio-caf-bfam" remote="omnirom" revision="android-5.1" />
@@ -62,17 +65,18 @@
   <!-- Begin Proprietary Vendor Repos -->
   
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="DC" revision="android-5.1" />
-  
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="DC" revision="android-4.4" />
+
   <!-- End Vendor Repos -->
 
   <!-- Begin Kernel Repos -->
   
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
-
+  <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi" revision="lp5.1" />
+  
   <!-- End Kernel Repos -->
   
   <!--Begin outside projects -->
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
