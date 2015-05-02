@@ -51,13 +51,23 @@
   
   <!-- zombi Roms Device Repos -->
   
+  <project path="device/oppo/find7op" name="android_device_oppo_find7op" remote="zombi" revision="lp5.1"
+  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="omnirom" revision="android-5.1"
+  <project path="hardware/qcom/display-caf-bfam" name="android_hardware_qcom_display-caf-bfam" remote="omnirom" revision="android-5.1"
+  <project path="hardware/qcom/media-caf-bfam" name="android_hardware_qcom_media-caf-bfam" remote="omnirom" revision="android-5.1"
+  <project path="hardware/qcom/audio-caf-bfam" name="android_hardware_qcom_audio-caf-bfam" remote="omnirom" revision="android-5.1"
+  
   <!-- End zombi Roms Device Repos -->
 
   <!-- Begin Proprietary Vendor Repos -->
   
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="DC" revision="android-5.1" />
+  
   <!-- End Vendor Repos -->
 
   <!-- Begin Kernel Repos -->
+  
+  <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
 
   <!-- End Kernel Repos -->
   
