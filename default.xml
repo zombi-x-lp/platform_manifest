@@ -52,7 +52,7 @@
   <!-- zombi Roms Device Repos -->
   
   <project path="device/oppo/find7op" name="android_device_oppo_find7op" remote="zombi" revision="lp5.1" />
-  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="omnirom" revision="android-5.1" />
+  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="zombi" revision="lp5.1" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="zombi" revision="lp5.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="zombi" revision="lp5.1" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="zombi" revision="lp5.1" />
