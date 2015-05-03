@@ -72,6 +72,7 @@
   <!-- Begin Kernel Repos -->
   
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
+  <project name="android_kernel_oneplus_one" path="kernel/oppo/one" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi" revision="lp5.1" />
   
   <!-- End Kernel Repos -->
