@@ -59,13 +59,15 @@
   <project path="device/asus/flo" name="android_device_asus_flo" remote="zombi" revision="lp5.1" />
   <project path="device/acer/a510" name="android_device_acer_a510" remote="zombi" revision="lp5.1" />
   <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi" revision="lp5.1" />
-  
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="zombi" revision="lp5.1" />
+
   <!-- End zombi Roms Device Repos -->
 
   <!-- Begin Proprietary Vendor Repos -->
 
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="DC" revision="android-5.1" />
   <project path="vendor/acer" name="Hardslog/proprietary_vendor_acer" remote="github" revision="lp5.1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="DC" revision="android-5.1" />
   
   <!-- End Vendor Repos -->
 
@@ -76,6 +78,7 @@
   <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="twrp" />
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
+  <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
 
   <!-- End Kernel Repos -->
   
