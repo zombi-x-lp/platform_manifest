@@ -66,7 +66,7 @@
 
   <!-- Begin Proprietary Vendor Repos -->
 
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="DC" revision="android-5.1" />
+  <project path="vendor/asus" name="lj50036/proprietary_vendor_asus" remote="github" revision="lp5.1" />
   <project path="vendor/acer" name="Hardslog/proprietary_vendor_acer" remote="github" revision="lp5.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="DC" revision="android-5.1" />
   
