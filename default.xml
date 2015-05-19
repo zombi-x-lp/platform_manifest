@@ -56,7 +56,7 @@
   <project path="device/asus/me301t" name="android_device_asus_me301t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/transformer-common" name="android_device_asus_transformer-common" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="zombi" revision="twrp" />
+  <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="zombi" revision="lp5.1" />
   <project path="device/acer/a510" name="android_device_acer_a510" remote="zombi" revision="lp5.1" />
   <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi" revision="lp5.1" />
@@ -79,7 +79,7 @@
  
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="twrp" />
+  <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="lp5.1" />
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
