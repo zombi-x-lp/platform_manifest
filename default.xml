@@ -48,7 +48,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="zombi" revision="lp5.1" />
-  
+  <project path="system/extras" name="android_system_extras" remote="zombi" revision="lp5.1" groups="pdk" />
   <!-- End zombi Roms repos -->
   
   <!-- zombi Roms Device Repos -->
@@ -550,7 +550,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.1" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-5.1" />
