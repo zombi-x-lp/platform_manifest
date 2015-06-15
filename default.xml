@@ -32,7 +32,7 @@
   </project>
 
    <!-- zombi Roms repos -->
-  
+
   <project path="vendor/zombi" name="android_vendor_zombi" remote="zombi" revision="lp5.1" />
   <project path="platform_manifest" name="platform_manifest" remote="zombi" revision="lp5.1" />
   <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="zombi" revision="lp5.1" />
@@ -41,6 +41,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="zombi" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="zombi" revision="lp5.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zombi" revision="lp5.1" />
+  <project path="frameworks/av-caf" name="android_frameworks_av" remote="zombi" revision="lp5.1-caf" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="zombi" revision="lp5.1" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="zombi" revision="lp5.1" />
@@ -49,10 +50,16 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="zombi" revision="lp5.1" />
   <project path="system/extras" name="android_system_extras" remote="zombi" revision="lp5.1" groups="pdk" />
+
   <!-- End zombi Roms repos -->
-  
+
   <!-- zombi Roms Device Repos -->
-  
+
+  <project path="device/oppo/find7op" name="android_device_oppo_find7op" remote="zombi" revision="lp5.1" />
+  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="zombi" revision="lp5.1" />
+  <project path="hardware/qcom/display-caf-bfam" name="android_hardware_qcom_display-caf-bfam" remote="omnirom" revision="android-5.1" />
+  <project path="hardware/qcom/media-caf-bfam" name="android_hardware_qcom_media-caf-bfam" remote="omnirom" revision="android-5.1" />
+  <project path="hardware/qcom/audio-caf-bfam" name="android_hardware_qcom_audio-caf-bfam" remote="omnirom" revision="android-5.1" />
   <project path="device/asus/tf201t" name="android_device_asus_tf201t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/me301t" name="android_device_asus_me301t" remote="zombi" revision="lp5.1" />
@@ -64,7 +71,7 @@
   <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi" revision="lp5.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="zombi" revision="lp5.1" />
   <project path="device/samsung/skomer" name="android_device_samsung_skomer" remote="zombi" revision="lp5.1" />
-  
+
   <!-- End zombi Roms Device Repos -->
 
   <!-- Begin Proprietary Vendor Repos -->
@@ -73,11 +80,15 @@
   <project path="vendor/acer" name="Hardslog/proprietary_vendor_acer" remote="github" revision="lp5.1" />
   <project path="vendor/lge" name="kldoc/proprietary_vendor_lge" remote="github" revision="lp5.1" />
   <project path="vendor/samsung" name="lj50036/proprietary_vendor_samsung" remote="github" revision="lp5.1" />
-  
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="DC" revision="android-5.1" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="DC" revision="android-4.4" />
+
   <!-- End Vendor Repos -->
 
   <!-- Begin Kernel Repos -->
- 
+  
+  <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
+  <project name="android_kernel_oneplus_one" path="kernel/oppo/one" remote="zombi" revision="lp5.1" />
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="lp5.1" />
@@ -90,7 +101,6 @@
   <!-- End Kernel Repos -->
   
   <!--Begin outside projects -->
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
