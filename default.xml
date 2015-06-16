@@ -88,6 +88,7 @@
   <!-- Begin Aroma META-INF Repos -->
 
   <project path="vendor/zombi/meta-inf/tegra3" name="android_tegra3_aroma_META-INF" remote="zombi" revision="lp5.1" />
+  <project path="vendor/zombi/meta-inf/mako" name="android_mako_aroma_META-INF" remote="zombi" revision="lp5.1" />
 
   <!-- End Aroma META-INF Repos -->
 
