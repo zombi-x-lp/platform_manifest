@@ -85,8 +85,14 @@
 
   <!-- End Vendor Repos -->
 
+  <!-- Begin Aroma META-INF Repos -->
+
+  <project path="vendor/zombi/meta-inf/tegra3" name="android_tegra3_aroma_META-INF" remote="zombi" revision="lp5.1" />
+
+  <!-- End Aroma META-INF Repos -->
+
   <!-- Begin Kernel Repos -->
-  
+
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_oneplus_one" path="kernel/oppo/one" remote="zombi" revision="lp5.1" />
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
