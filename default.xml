@@ -109,7 +109,6 @@
   <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_asus_me301t" path="kernel/asus/tegra3/me301t" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_samsung_skomer" path="kernel/samsung/skomer" remote="zombi" revision="lp5.1" />
   
   <!-- End Kernel Repos -->
