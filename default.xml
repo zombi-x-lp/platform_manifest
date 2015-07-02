@@ -103,7 +103,7 @@
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_oneplus_one" path="kernel/oppo/one" remote="zombi" revision="lp5.1" />
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
-  <project name="grimlock_kernel_asus_me301t" path="kernel/asus/tegra3/me301t" remote="zombi" revision="lp5.1" />
+  <project name="omni_kernel_asus_tf300t" path="kernel/asus/tegra3/tf300t" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="lp5.1" />
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
