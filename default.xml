@@ -50,8 +50,6 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="zombi" revision="lp5.1" />
   <project path="system/extras" name="android_system_extras" remote="zombi" revision="lp5.1" groups="pdk" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="zombi" revision="lp5.1" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="zombi" revision="lp5.1" groups="pdk" />
 
   <!-- End zombi Roms repos -->
 
@@ -396,8 +394,10 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="omnirom" revision="android-5.1" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-5.1" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
