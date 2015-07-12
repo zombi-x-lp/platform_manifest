@@ -76,6 +76,7 @@
   <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi" revision="lp5.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="zombi" revision="lp5.1" />
   <project path="device/samsung/skomer" name="android_device_samsung_skomer" remote="zombi" revision="lp5.1" />
+  <project path="device/oppo/m3" name="android_device_oppo_m3" remote="zombi" revision="lp5.1" />
 
   <!-- End zombi Roms Device Repos -->
 
@@ -111,6 +112,7 @@
   <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_samsung_skomer" path="kernel/samsung/skomer" remote="zombi" revision="lp5.1" />
+  <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8916" remote="zombi" revision="lp5.1" />
   
   <!-- End Kernel Repos -->
   
