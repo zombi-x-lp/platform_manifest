@@ -60,9 +60,6 @@
   <project path="hardware/qcom/display-caf-bfam" name="android_hardware_qcom_display-caf-bfam" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/media-caf-bfam" name="android_hardware_qcom_media-caf-bfam" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/audio-caf-bfam" name="android_hardware_qcom_audio-caf-bfam" remote="omnirom" revision="android-5.1" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="zombi" revision="lp5.1" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="zombi" revision="lp5.1" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="zombi" revision="lp5.1" />
   <project path="device/asus/tf201t" name="android_device_asus_tf201t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi" revision="lp5.1" />
   <project path="device/asus/me301t" name="android_device_asus_me301t" remote="zombi" revision="lp5.1" />
@@ -73,7 +70,6 @@
   <project path="device/acer/a510" name="android_device_acer_a510" remote="zombi" revision="lp5.1" />
   <project path="device/acer/t30-common" name="android_device_acer_t30-common" remote="zombi" revision="lp5.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="zombi" revision="lp5.1" />
-  <project path="device/samsung/skomer" name="android_device_samsung_skomer" remote="zombi" revision="lp5.1" />
   <project path="device/oppo/m3" name="android_device_oppo_m3" remote="zombi" revision="lp5.1" />
 
   <!-- End zombi Roms Device Repos -->
@@ -83,9 +79,7 @@
   <project path="vendor/asus" name="lj50036/proprietary_vendor_asus" remote="github" revision="lp5.1" />
   <project path="vendor/acer" name="Hardslog/proprietary_vendor_acer" remote="github" revision="lp5.1" />
   <project path="vendor/lge" name="kldoc/proprietary_vendor_lge" remote="github" revision="lp5.1" />
-  <project path="vendor/samsung" name="lj50036/proprietary_vendor_samsung" remote="github" revision="lp5.1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="DC" revision="android-5.1" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="DC" revision="android-4.4" />
 
   <!-- End Vendor Repos -->
 
@@ -100,16 +94,13 @@
   <!-- Begin Kernel Repos -->
 
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_oneplus_one" path="kernel/oppo/one" remote="zombi" revision="lp5.1" />
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
   <project name="omni_kernel_asus_unified" path="kernel/asus/tegra3/unified" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="lp5.1" />
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_samsung_skomer" path="kernel/samsung/skomer" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8916" remote="zombi" revision="lp5.1" />
   
   <!-- End Kernel Repos -->
