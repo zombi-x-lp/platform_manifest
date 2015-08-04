@@ -92,6 +92,12 @@
 
   <!-- End Aroma META-INF Repos -->
 
+  <!-- Begin Aroma extras Repos -->
+
+  <project path="vendor/zombi/extras/tegra3" name="android_tegra3_aroma_extras" remote="zombi" revision="lp5.1" />
+
+  <!-- End Aroma extras Repos -->
+
   <!-- Begin Kernel Repos -->
 
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
