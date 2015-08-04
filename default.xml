@@ -86,15 +86,15 @@
 
   <!-- Begin Aroma META-INF Repos -->
 
-  <project path="vendor/zombi/meta-inf/tegra3" name="android_tegra3_aroma_META-INF" remote="zombi" revision="lp5.1" />
-  <project path="vendor/zombi/meta-inf/mako" name="android_mako_aroma_META-INF" remote="zombi" revision="lp5.1" />
-  <project path="vendor/zombi/meta-inf/flo" name="android_flo_aroma_META-INF" remote="zombi" revision="lp5.1" />
+  <project path="vendor/zombi/aroma/meta-inf/tegra3" name="android_tegra3_aroma_META-INF" remote="zombi" revision="lp5.1" />
+  <project path="vendor/zombi/aroma/meta-inf/mako" name="android_mako_aroma_META-INF" remote="zombi" revision="lp5.1" />
+  <project path="vendor/zombi/aroma/meta-inf/flo" name="android_flo_aroma_META-INF" remote="zombi" revision="lp5.1" />
 
   <!-- End Aroma META-INF Repos -->
 
   <!-- Begin Aroma extras Repos -->
 
-  <project path="vendor/zombi/extras/tegra3" name="android_tegra3_aroma_extras" remote="zombi" revision="lp5.1" />
+  <project path="vendor/zombi/aroma/extras/tegra3" name="android_tegra3_aroma_extras" remote="zombi" revision="lp5.1" />
 
   <!-- End Aroma extras Repos -->
 
