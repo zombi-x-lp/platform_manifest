@@ -103,14 +103,12 @@
 
   <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
   <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
-  <project name="lj50036/omni_kernel_asus_tegra3" path="kernel/asus/tegra3/omni" remote="github" revision="lp5.1" />
   <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="lp5.1" />
   <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_acer_t30" path="kernel/acer/t30" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8916" remote="zombi" revision="lp5.1" />
-  <project name="lj50036/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="lp5.1" />
   <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="zombi" revision="lp5.1" />
   
   <!-- End Kernel Repos -->
