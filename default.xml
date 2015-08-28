@@ -74,6 +74,8 @@
   <project path="device/oppo/m3" name="android_device_oppo_m3" remote="zombi" revision="lp5.1" />
   <project path="device/htc/twrp/m7" name="android_device_htc_twrp_m7" remote="zombi" revision="lp5.1" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="zombi" revision="lp5.1" />
+  <project path="device/nvidia/shieldtablet" name="android_device_nvidia_shieldtablet" remote="zombi" revision="lp5.1" />
+  <project path="device/nvidia/wx_na_wf" name="android_device_nvidia_wx_na_wf" remote="zombi" revision="lp5.1" />
 
   <!-- End zombi Roms Device Repos -->
 
@@ -83,6 +85,7 @@
   <project path="vendor/acer" name="Hardslog/proprietary_vendor_acer" remote="github" revision="lp5.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="DC" revision="android-5.1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="DC" revision="android-5.1" />
+  <project path="vendor/nvidia" name="lj50036/proprietary_vendor_nvidia" remote="github" revision="lp5.1" />
 
   <!-- End Vendor Repos -->
 
@@ -111,6 +114,7 @@
   <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8916" remote="zombi" revision="lp5.1" />
   <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="zombi" revision="lp5.1" />
+  <project name="android_kernel_nvidia_shieldtablet" path="kernel/nvidia/shieldtablet" remote="zombi" revision="lp5.1" />
   
   <!-- End Kernel Repos -->
   
