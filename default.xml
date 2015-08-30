@@ -22,7 +22,7 @@
   <remote  name="zombi"
            fetch="git://github.com/zombi-x" />
 
-  <default revision="refs/tags/android-5.1.1_r5"
+  <default revision="refs/tags/android-5.1.1_r12"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -122,7 +122,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
