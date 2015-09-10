@@ -52,7 +52,9 @@
   <project path="system/extras" name="android_system_extras" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="zombi" revision="lp5.1" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="zombi" revision="lp5.1" groups="pdk" />
-
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="zombi" revision="lp5.1" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="zombi" revision="lp5.1" />
+  
   <!-- End zombi Roms repos -->
 
   <!-- zombi Roms Device Repos -->
@@ -354,7 +356,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-5.1" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -440,7 +441,6 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-5.1" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.1" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.1" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="omnirom" revision="android-5.1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
