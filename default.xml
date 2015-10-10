@@ -26,7 +26,6 @@
 
    <!-- Zombi Roms repos -->
   <project path="bootable/recovery" name="zombi-x/android_bootable_recovery" remote="github" revision="mm6.0"/>
-  <project path="external/bluetooth/bluedroid" name="zombi-x/android_external_bluetooth_bluedroid" remote="github" revision="mm6.0" />
   <project path="external/busybox" name="zombi-x/android_external_busybox" remote="github" revision="mm6.0" />
   <project path="external/f2fs-tools" name="zombi-x/android_external_f2fs-tools" remote="github" revision="mm6.0" />
   <project path="external/tinyalsa" name="zombi-x/android_external_tinyalsa" remote="github" revision="mm6.0" />
