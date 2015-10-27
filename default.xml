@@ -34,7 +34,6 @@
   <project path="frameworks/base" name="zombi-x/android_frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/native" name="zombi-x/android_frameworks_native" remote="github" revision="mm6.0" />
   <project path="hardware/libhardware" name="zombi-x/android_hardware_libhardware" remote="github" revision="mm6.0" />
-  <project path="hardware/ril" name="zombi-x/android_hardware_ril" remote="github" revision="mm6.0" />
   <project path="packages/apps/Browser" name="zombi-x/android_packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="packages/apps/DSPManager" name="zombi-x/android_packages_apps_DSPManager" remote="github" revision="mm6.0" />
   <project path="packages/apps/Launcher3" name="zombi-x/android_packages_apps_Launcher3" remote="github" revision="mm6.0" />
@@ -354,6 +353,7 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-6.0" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-6.0" groups="qcom_wlan" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="libcore" name="android_libcore" remote="omnirom" revision="android-6.0" groups="pdk" />
