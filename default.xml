@@ -52,7 +52,6 @@
   <project path="external/busybox" name="android_external_busybox" remote="zombi" revision="lp5.1" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="zombi" revision="lp5.1" groups="pdk" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="zombi" revision="lp5.1" />
   
   <!--Begin outside projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -381,6 +380,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.1" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="omnirom" revision="android-5.1" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-5.1" groups="omap4" />
