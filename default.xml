@@ -54,69 +54,6 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="zombi" revision="lp5.1" groups="pdk" />
   <project path="hardware/ril" name="android_hardware_ril" remote="zombi" revision="lp5.1" />
   
-  <!-- End zombi Roms repos -->
-
-  <!-- zombi Roms Device Repos -->
-
-  <project path="device/oppo/find7op" name="android_device_oppo_find7op" remote="zombi" revision="lp5.1" />
-  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="zombi" revision="lp5.1" />
-  <project path="hardware/qcom/display-caf-bfam" name="android_hardware_qcom_display-caf-bfam" remote="omnirom" revision="android-5.1" />
-  <project path="hardware/qcom/media-caf-bfam" name="android_hardware_qcom_media-caf-bfam" remote="omnirom" revision="android-5.1" />
-  <project path="hardware/qcom/audio-caf-bfam" name="android_hardware_qcom_audio-caf-bfam" remote="omnirom" revision="android-5.1" />
-  <project path="device/asus/tf201t" name="android_device_asus_tf201t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf300t" name="android_device_asus_tf300t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/me301t" name="android_device_asus_me301t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/transformer-common" name="android_device_asus_transformer-common" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/tf701t" name="android_device_asus_tf701t" remote="zombi" revision="lp5.1" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="zombi" revision="lp5.1" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="zombi" revision="lp5.1" />
-  <project path="device/oppo/m3" name="android_device_oppo_m3" remote="zombi" revision="lp5.1" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="zombi" revision="lp5.1" />
-  <project path="device/nvidia/shieldtablet" name="android_device_nvidia_shieldtablet" remote="zombi" revision="lp5.1" />
-  <project path="device/nvidia/wx_na_wf" name="android_device_nvidia_wx_na_wf" remote="zombi" revision="lp5.1" />
-  <project path="device/lge/g2m" name="android_device_lge_g2m" remote="zombi" revision="lp5.1" />
-
-  <!-- End zombi Roms Device Repos -->
-
-  <!-- Begin Proprietary Vendor Repos -->
-
-  <project path="vendor/asus" name="lj50036/proprietary_vendor_asus" remote="github" revision="lp5.1" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="DC" revision="android-5.1" />
-  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="DC" revision="android-5.1" />
-  <project path="vendor/nvidia" name="lj50036/proprietary_vendor_nvidia" remote="github" revision="lp5.1" />
-
-  <!-- End Vendor Repos -->
-
-  <!-- Begin Aroma META-INF Repos -->
-
-  <project path="vendor/zombi/aroma/meta-inf/tegra3" name="android_tegra3_aroma_META-INF" remote="zombi" revision="lp5.1" />
-  <project path="vendor/zombi/aroma/meta-inf/mako" name="android_mako_aroma_META-INF" remote="zombi" revision="lp5.1" />
-  <project path="vendor/zombi/aroma/meta-inf/flo" name="android_flo_aroma_META-INF" remote="zombi" revision="lp5.1" />
-
-  <!-- End Aroma META-INF Repos -->
-
-  <!-- Begin Aroma extras Repos -->
-
-  <project path="vendor/zombi/aroma/extras/tegra3" name="android_tegra3_aroma_extras" remote="zombi" revision="lp5.1" />
-
-  <!-- End Aroma extras Repos -->
-
-  <!-- Begin Kernel Repos -->
-
-  <project name="android_kernel_oppo_msm8974" path="kernel/oppo/msm8974" remote="zombi" revision="lp5.1" />
-  <project name="grimlock_kernel_asus_tegra3_unified" path="kernel/asus/tegra3/grimlocks" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_asus_flo" path="kernel/asus/flo" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_asus_tf701t" path="kernel/asus/tf701t" remote="zombi" revision="lp5.1" />
-  <project name="that1_kernel_asus_tf700t" path="kernel/asus/tegra3/that1" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_lge_mako" path="kernel/lge/mako" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8916" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_nvidia_shieldtablet" path="kernel/nvidia/shieldtablet" remote="zombi" revision="lp5.1" />
-  <project name="android_kernel_lge_msm8x26" path="kernel/lge/msm8x26" remote="zombi" revision="lp5.1" />
-  
-  <!-- End Kernel Repos -->
-  
   <!--Begin outside projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
