@@ -42,7 +42,7 @@
   <project path="packages/apps/Settings" name="zombi-x/android_packages_apps_Settings" remote="github" revision="mm6.0" />
   <project path="platform_manifest" name="zombi-x/platform_manifest" remote="github" revision="mm6.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="zombi-x/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="mm6.0" />
-  <project path="system/bt" name="platform/system/bt" remote="github" revision="mm6.0" />
+  <project path="system/bt" name="zombi-x/android_system_bt" remote="github" revision="mm6.0" />
   <project path="system/core" name="zombi-x/android_system_core" remote="github" revision="mm6.0" />
   <project path="system/extras" name="zombi-x/android_system_extras" remote="github" revision="mm6.0" />
   <project path="vendor/zombi" name="zombi-x/android_vendor_zombi" remote="github" revision="mm6.0" />
